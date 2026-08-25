@@ -4,8 +4,6 @@
 
 A lightweight HTTP service that wraps a MySQL database with REST API for table/row CRUD operations. Used by `core/scripts/aic-db-mysql-v2.sh` and gateway E2E tests to verify AIC capability-based access control against a real MySQL backend.
 
-> **注意：这是 varwof AIC 集成测试用的工具，切勿用于生产环境。无认证、无 TLS，暴露完整数据库 CRUD。**
-
 ## Prerequisites
 
 - Go 1.26+
