@@ -1,0 +1,2 @@
+# Compiled binary from `go build -o mysql-api .` (see README)
+/mysql-api
