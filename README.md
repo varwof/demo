@@ -1,5 +1,8 @@
 # mysql-api — MySQL Test Database for AIC Integration Testing
 
+> ⭐ Like this repo? Give a star to the flagship one:
+> [![GitHub stars](https://img.shields.io/github/stars/varwof/core?style=social&label=varwof/core)](https://github.com/varwof/core)
+
 > **WARNING: This is a test utility for varwof AIC (Agent Identity Certificate) integration testing. DO NOT use in production. It has no authentication, no TLS, and exposes full database CRUD operations.**
 
 A lightweight HTTP service that wraps a MySQL database with REST API for table/row CRUD operations. Used by `core/scripts/aic-db-mysql-v2.sh` and gateway E2E tests to verify AIC capability-based access control against a real MySQL backend.
